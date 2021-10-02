@@ -45,7 +45,9 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 10px;
 }
 h1 {
-	font-size: 36px;
+	font-size: 69px;
+	  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
 }
 h2 {
 	font-size: 30px;
@@ -60,7 +62,9 @@ h5 {
 	font-size: 18px;
 }
 p {
-	font: 14px/1.5em "Roboto";
+	font: 20px/1.5em "Roboto";
+	  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
 }
 .navbar-nav > li > a {
 	font-family: "Lato", Helvetica, Arial, sans-serif;
@@ -273,13 +277,13 @@ section {
 #text-carousel-intro-section .caption h1 {
 	margin-top: 0;
 	margin-bottom: 5px;
-	font-size: 60px;
+	font-size: 100px;
 	text-transform: uppercase;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 }
 #text-carousel-intro-section .caption p {
 	letter-spacing: 2px;
-	font-size: 16px;
+	font-size: 60px;
 }
 /* End text carousel intro */
 /* ===== End intro ===== */
